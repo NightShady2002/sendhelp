@@ -1,5 +1,5 @@
 import { ColumnType, Generated } from "kysely";
-import { User, Topic } from "./types"; // Assuming User and Topic are defined in types.ts
+
 
 export type Database = {
   room: RoomTable;
